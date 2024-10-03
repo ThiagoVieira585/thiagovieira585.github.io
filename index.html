@@ -19,33 +19,31 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar">
-      <div class="navbar__content max-width mb-0">
-        <a href="/">
-          <img
-            src="assets/Thiago.png"
-            alt="Thiago Vieira"
-          />
-        </a>
-        <ul class="navbar__links">
-          <li><a href="#header">Início</a></li>
-          <li><a href="#about">Sobre</a></li>
-          <li><a href="#skills">Habilidades</a></li>
-          <li><a href="#projects">Projetos</a></li>
-          <li><a href="#footer">Contato</a></li>
-        </ul>
-        <div class="navbar__mobile">
-          <img src="assets/menu.svg" alt="menu" class="burguer" />
-          <ul class="mobile__links">
-            <li><a href="#header">Início</a></li>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#skills">Habilidades</a></li>
-            <li><a href="#projects">Projetos</a></li>
-            <li><a href="#footer">Contato</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <<nav class="navbar">
+  <div class="navbar__content max-width mb-0">
+    <a href="/">
+      <img src="assets/logo.jpeg" alt="Thiago Vieira" />
+    </a>
+    <ul class="navbar__links">
+      <li><a href="#header">Início</a></li>
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#skills">Habilidades</a></li>
+      <li><a href="#projects">Projetos</a></li>
+      <li><a href="#footer">Contato</a></li>
+    </ul>
+    <div class="navbar__mobile">
+      <img src="assets/menu.svg" alt="menu" class="burguer" />
+      <ul class="mobile__links">
+        <li><a href="#header">Início</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#footer">Contato</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 
     <!-- header -->
     <header id="header" class="max-width">
@@ -77,17 +75,21 @@
     <!-- Sobre -->
     <section id="about" class="about max-width">
       <div class="about__left">
-        <h2 class="secondary-title">Além do código: quem sou eu?</h2>
+        <h2 class="tertiary-title">Além do código: quem sou eu?</h2>
         <p>
-          Que tal se conectar comigo na rede sociai abaixo ou acompanhar meus projetos e
-          incentivar minha jornada de aprendizado e desenvolvimento?
+          Que tal se conectar comigo na rede sociai abaixo ou acompanhar meus
+          projetos e incentivar minha jornada de aprendizado e desenvolvimento?
         </p>
         <ul>
           <li>
-            <a href="https://www.linkedin.com/in/thiago-vieira585"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
+            <a href="https://www.linkedin.com/in/thiago-vieira585"
+              ><img src="assets/linkedin.svg" alt="Linkedin"
+            /></a>
           </li>
           <li>
-            <a href="https://www.github.com/ThiagoVieira585"><img src="assets/github.svg" alt="Github" /></a>
+            <a href="https://www.github.com/ThiagoVieira585"
+              ><img src="assets/github.svg" alt="Github"
+            /></a>
           </li>
         </ul>
       </div>
@@ -165,28 +167,47 @@
     <!-- Projetos -->
     <section id="projects" class="projects max-width">
       <div class="projects__content">
-        <h2 class="secondary-title">Projetos em Destaque</h2>
+        <h2 class="tertiary-title">Projetos em Destaque</h2>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. A modi
-          veniam incidunt unde itaque impedit consectetur nesciunt, rerum at
-          excepturi voluptates similique molestias doloribus explicabo quo rem
-          vel est! Impedit!
+          Abaixo possuo alguns projetos que mostram um pouco da minha jornada.
+          Fique à vontade para explorar um pouco dos meus projetos.
         </p>
       </div>
       <ul>
+        <li class="projects__reversed-list">
+          <div class="image">
+            <img src="assets/workspace.jpg" alt="código" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">Sistema de Gestão</h3>
+            <p>
+              Eu desenvolvi um projeto próprio para aplicar minhas habilidades,
+              utilizando tecnologias como Nest.js, Prisma e PostgreSQL. O
+              sistema implementa CRUD para a entidade Filho, relacionada à
+              entidade Pai, demonstrando o relacionamento entre as tabelas. O
+              aplicativo permite criar, ler, atualizar e excluir registros de
+              Pai e Filho, com foco na associação entre as duas entidades.
+            </p>
+            <a href="https://github.com/ThiagoVieira585/Aplicacao-nest-prisma"
+              >Leia mais &rarr;</a
+            >
+          </div>
+        </li>
         <li>
           <div class="image">
             <img src="assets/task-manager.png" alt="Gerenciamento de tarefas" />
           </div>
           <div class="projects__info">
-            <h3 class="tertiary-title">Coming soon!</h3>
+            <h3 class="tertiary-title">EduFinancas</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-              quisquam ex delectus, iure a optio provident error natus totam.
-              Laboriosam est doloremque quas aperiam, labore voluptate ratione
-              quod reiciendis nihil?
+              O EduFinancas é uma aplicação de gerenciamento financeiro pessoal,
+              onde os usuários podem acompanhar suas receitas e despesas de
+              maneira organizada. Esse foi um projeto acadêmico em que fiquei
+              responsável pelo backend.
             </p>
-            <a href="#">Leia mais &rarr;</a>
+            <a href="https://github.com/ThiagoVieira585/EduFinancas"
+              >Leia mais &rarr;</a
+            >
           </div>
         </li>
         <li class="projects__reversed-list">
@@ -194,14 +215,14 @@
             <img src="assets/ecommerce.png" alt="ecommerce" />
           </div>
           <div class="projects__info">
-            <h3 class="tertiary-title">coming soon!</h3>
+            <h3 class="tertiary-title">Desafio 1 - Compass UOL</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-              laboriosam dignissimos quisquam quam soluta enim magni quas eaque
-              hic nam tenetur natus sapiente rerum excepturi cum mollitia, ipsam
-              pariatur laborum!
+              Esse foi meu primeiro desafio no estágio, utilizando Node.js,
+              Typescript e JSON para armazenar dados na memória.
             </p>
-            <a href="#">Leia mais &rarr;</a>
+            <a href="https://github.com/ThiagoVieira585/Challenge-01-COMPASS"
+              >Leia mais &rarr;</a
+            >
           </div>
         </li>
         <li>
@@ -209,19 +230,20 @@
             <img src="assets/delivery.png" alt="delivery" />
           </div>
           <div class="projects__info">
-            <h3 class="tertiary-title">Coming soon!</h3>
+            <h3 class="tertiary-title">Desafio 2 - Compass UOL</h3>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde vel
-              quidem non illo, omnis vero velit doloribus, suscipit quis,
-              maiores cumque voluptas reiciendis qui laborum tenetur nulla
-              consectetur repudiandae! Mollitia!
+              Nesse desafio, aprimoramos a arquitetura do projeto, introduzimos
+              o MongoDB para persistir dados, e inserimos autenticação para os
+              usuários. O Swagger foi adicionado para melhorar a documentação da
+              API.
             </p>
-            <a href="#">Leia mais &rarr;</a>
+            <a href="https://github.com/ThiagoVieira585/Challenge-02-COMPASS"
+              >Leia mais &rarr;</a
+            >
           </div>
         </li>
       </ul>
     </section>
-
     <!-- Footer -->
     <footer id="footer">
       <div class="footer__content max-width mb-0">
@@ -232,17 +254,23 @@
         </p>
         <div class="footer__contact mb-m">
           <span class="mb-m">thiagomlu@hotmail.com.br</span>
-          <span>(88) 9 998532078</span>
+          <span>(88) 99853-2078</span>
         </div>
         <ul class="mb-l">
           <li>
-            <a href="mailto:thiagogato.vieiradasilva585@gmail.com"><img src="assets/gmail.svg" alt="Gmail" /></a>
+            <a href="mailto:thiagogato.vieiradasilva585@gmail.com"
+              ><img src="assets/gmail.svg" alt="Gmail"
+            /></a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/thiago-vieira585"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
+            <a href="https://www.linkedin.com/in/thiago-vieira585"
+              ><img src="assets/linkedin.svg" alt="Linkedin"
+            /></a>
           </li>
           <li>
-            <a href="https://www.github.com/ThiagoVieira585"><img src="assets/github.svg" alt="Github" /></a>
+            <a href="https://www.github.com/ThiagoVieira585"
+              ><img src="assets/github.svg" alt="Github"
+            /></a>
           </li>
         </ul>
         <p class="footer__copyright">

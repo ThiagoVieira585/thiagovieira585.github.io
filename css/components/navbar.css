@@ -4,13 +4,20 @@
   left: 0;
   width: 100%;
   z-index: 10;
-  background-color: var(--white);
+  background-color: var(--gray); /* Você pode alterar para uma cor mais escura se necessário */
 }
 
 .navbar .navbar__content {
-  padding: 3rem 4rem 1rem;
+  padding: 1rem 4rem; /* Ajuste o padding conforme necessário */
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .navbar__content img {
+  max-width: 100%; /* Limita a largura máxima da imagem à largura do seu container */
+  height: auto; /* Mantém a proporção da imagem */
+  max-height: 50px; /* Ajuste a altura máxima para que a logo fique legível */
 }
 
 .navbar .navbar__content .navbar__links li {
